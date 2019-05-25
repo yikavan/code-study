@@ -118,6 +118,7 @@ public class sc1_1 {
         re1 = (re1 + re2) / 2;
         System.out.println(re1);
         sc.close();
+        // test change
     }
 }
 /*
