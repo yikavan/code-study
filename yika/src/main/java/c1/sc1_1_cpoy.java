@@ -14,14 +14,14 @@ class Solution {
             m = n;
             n = tmp;
         }
-        int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
-        while (iMin <= iMax) {
-            int i = (iMin + iMax) / 2;
-            int j = halfLen - i;
-            if (i < iMax && B[j - 1] > A[i]) {
-                iMin = iMin + 1; // i is too small
-            } else if (i > iMin && A[i - 1] > B[j]) {
-                iMax = iMax - 1; // i is too big
+        int l = 0, r = m, mid = (m + n + 1) / 2;
+        while (l <= r) {
+            int i = (l + r) / 2;
+            int j = mid - i;
+            if (i < r && B[j - 1] > A[i]) {
+                l = l + 1; // i is too small
+            } else if (i > l && A[i - 1] > B[j]) {
+                r = r - 1; // i is too big
             } else { // i is perfect
                 int maxLeft = 0;
                 if (i == 0) {
