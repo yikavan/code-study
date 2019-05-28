@@ -2,9 +2,18 @@ package c1;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 public class sc1_1 {
     public static void main(String[] args) {
         float[] a ,b;
+=======
+/**
+ * sc1_1
+ */
+public class sc1_1 {
+    public static void main(String[] args) {
+        float[] a = new float[50], b = new float[50];
+>>>>>>> eb05d37e7d3fc5d82f9f2521dd57e800fc914ca6
         Scanner sc = new Scanner(System.in);
         int p, q;// 分别指向a和b
         int m, n;// 分别是a和b的长度
@@ -16,8 +25,11 @@ public class sc1_1 {
         System.out.println("输入m,n:");
         m = sc.nextInt();
         n = sc.nextInt();
+<<<<<<< HEAD
         a=new float[m+2];
         b=new float[n+2];
+=======
+>>>>>>> eb05d37e7d3fc5d82f9f2521dd57e800fc914ca6
         System.out.println("输入a[m]:");
         for (i = 1; i <= m; i++) {
             a[i] = sc.nextFloat();
