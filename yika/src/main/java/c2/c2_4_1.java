@@ -1,27 +1,28 @@
 package c2;
 
-class Clock {
+class CClock {
+    // 同一个包不能有相同的类
     int h, m, s;
 
-    Clock(int h, int m, int s) {
+    CClock(int h, int m, int s) {
         this.h = h;
         this.m = m;
         this.s = s;
     }
 
-    public void show() {
+    void show() {
         System.out.println(h + ":" + m + ":" + s);
     }
 
 }
 
-public class c2_4_b {
+public class c2_4_1 {
     // 我是用题号名的
 
     public static void main(String[] args) {
-        Clock time1=new Clock(1,4,3);
+        CClock time1=new CClock(1,2,3);
         time1.show();
-        Clock time2 = new Clock(2,5,1);
+        CClock time2 = new CClock(2,5,1);
         time2.show();
     }
 }
