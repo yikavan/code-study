@@ -6,11 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - E",
+            "request": "launch",
+            "mainClass": "c3.E",
+            "projectName": "yika"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
             "console": "integratedTerminal"
-            
         },
         {
             "type": "java",
