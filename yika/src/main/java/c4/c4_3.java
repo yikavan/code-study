@@ -1,55 +1,55 @@
-package c4;
+// package c4;
 
-import javax.swing.*;
-import java.awt.*;
+// import javax.swing.*;
+// import java.awt.*;
 
-public class c4_3 extends JApplet {
-    private Container cp = getContentPane();
+// public class c4_3 extends JApplet {
+//     private Container cp = getContentPane();
 
-    private JTextArea editarea = new JTextArea();
+//     private JTextArea editarea = new JTextArea();
 
-    private JMenuBar mub = new JMenuBar();
-    private JMenu ma = new JMenu("ÎÄ¼þ(F)");
-    private JMenu mb = new JMenu("±à¼­(E)");
-    private JMenu mc = new JMenu("°ïÖú(H)");
-    private JMenuItem ma1 = new JMenuItem("ÐÂ½¨(N)");
-    private JMenuItem ma2 = new JMenuItem("´ò¿ª(O)");
-    private JMenuItem ma3 = new JMenuItem("±£´æ(S)");
-    private JMenuItem ma4 = new JMenuItem("Áí´æÎª(A)");
-    private JMenuItem ma5 = new JMenuItem("ÍË³ö(X)");
-    private JMenuItem mb1 = new JMenuItem("³·Ïú(U)          CTRL+Z");
-    private JMenuItem mb2 = new JMenuItem("¼ôÇÐ(T)          CTRL+X");
-    private JMenuItem mb3 = new JMenuItem("¸´ÖÆ(C)          CTRL+C");
-    private JMenuItem mb4 = new JMenuItem("Õ³Ìù(P)          CTRL+V");
-    private JMenuItem mc1 = new JMenuItem("²é¿´°ïÖú(H)");
+//     private JMenuBar mub = new JMenuBar();
+//     private JMenu ma = new JMenu("ï¿½Ä¼ï¿½(F)");
+//     private JMenu mb = new JMenu("ï¿½à¼­(E)");
+//     private JMenu mc = new JMenu("ï¿½ï¿½ï¿½ï¿½(H)");
+//     private JMenuItem ma1 = new JMenuItem("ï¿½Â½ï¿½(N)");
+//     private JMenuItem ma2 = new JMenuItem("ï¿½ï¿½(O)");
+//     private JMenuItem ma3 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½(S)");
+//     private JMenuItem ma4 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½Îª(A)");
+//     private JMenuItem ma5 = new JMenuItem("ï¿½Ë³ï¿½(X)");
+//     private JMenuItem mb1 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½(U)          CTRL+Z");
+//     private JMenuItem mb2 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½(T)          CTRL+X");
+//     private JMenuItem mb3 = new JMenuItem("ï¿½ï¿½ï¿½ï¿½(C)          CTRL+C");
+//     private JMenuItem mb4 = new JMenuItem("Õ³ï¿½ï¿½(P)          CTRL+V");
+//     private JMenuItem mc1 = new JMenuItem("ï¿½é¿´ï¿½ï¿½ï¿½ï¿½(H)");
 
-    private Box centerbox = Box.createVerticalBox();
+//     private Box centerbox = Box.createVerticalBox();
 
-    private JScrollPane scp = new JScrollPane(editarea);
+//     private JScrollPane scp = new JScrollPane(editarea);
 
-    @Override
-    public void init() {
-        super.init();
-        setJMenuBar(mub);
-        ma.add(ma1);
-        ma.add(ma2);
-        ma.add(ma3);
-        ma.add(ma4);
-        ma.add(ma5);
+//     @Override
+//     public void init() {
+//         super.init();
+//         setJMenuBar(mub);
+//         ma.add(ma1);
+//         ma.add(ma2);
+//         ma.add(ma3);
+//         ma.add(ma4);
+//         ma.add(ma5);
 
-        mb.add(mb1);
-        mb.add(mb2);
-        mb.add(mb3);
-        mb.add(mb4);
+//         mb.add(mb1);
+//         mb.add(mb2);
+//         mb.add(mb3);
+//         mb.add(mb4);
 
-        mc.add(mc1);
-        mub.add(ma);
-        mub.add(mb);
-        mub.add(mc);
+//         mc.add(mc1);
+//         mub.add(ma);
+//         mub.add(mb);
+//         mub.add(mc);
 
-//        centerbox.add(editarea);
-        centerbox.add(scp);//ÊÔ³öÀ´ÊÇÕâÃ´Ð´µÄ
-        cp.add(centerbox);
+// //        centerbox.add(editarea);
+//         centerbox.add(scp);//ï¿½Ô³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã´Ð´ï¿½ï¿½
+//         cp.add(centerbox);
 
-    }
-}
+//     }
+// }
