@@ -1,7 +1,7 @@
 package c3_3.pack1;
 
 public class A {
-    private int i;
+    // private int i;
     float f;
     public double d;
 }

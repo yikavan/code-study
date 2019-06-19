@@ -30,8 +30,6 @@ public class c3_5 {
         ThreadA Thread1 = new ThreadA(300, "a1");
         Thread1.start();
         ThreadA Thread2 = new ThreadA(300, "b2");
-
         Thread2.start();
-
     }
 }
